@@ -22,7 +22,7 @@ This is a simple web application that transforms text messages entered by the us
 This project is built using `Python` and `Streamlit`. The text to handwritting conversion is done using [PyWhatKit](https://pywhatkit.herokuapp.com/) library.
 
 
-## ![Image](Images/Languages_Frameworks.png) Languages and Frameworks
+## ![Image](images/Languages_Frameworks.png) Languages and Frameworks
 
 | Name                                          | Version       |
 | :---------------:                               |:-------------:| 
