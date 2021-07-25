@@ -6,9 +6,8 @@ name = "pypi"
 [packages]
 pywhatkit = "*"
 streamlit = "*"
-pillow = "*"
 requests = "*"
-colormap = "*"
+
 
 [dev-packages]
 
