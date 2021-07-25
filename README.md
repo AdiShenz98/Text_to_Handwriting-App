@@ -31,10 +31,10 @@ This project is built using `Python` and `Streamlit`. The text to handwritting c
 | ![Logo](Images/pywhatkit.jpg) `PyWhatKit`     | v5.0      |    
 
 
-## ![Image](Images/Usage.png) Usage
+<!--## ![Image](Images/Usage.png) Usage
 
 
-## ![Image](Images/Demo.png) Demo
+## ![Image](Images/Demo.png) Demo-->
 
 ## ![Image](Images/License.png) License
 
