@@ -1,3 +1,5 @@
+![Text-to-Handwriting](https://user-images.githubusercontent.com/49498445/126910382-dec5e846-db03-4903-9a3b-27015f599b6b.gif)
+
 <h1 align="center">Text_to_Handwriting-App</h1>
 <h2 align="center"> A simple text to handwriting web app using Python and Streamlit</h2>
 
@@ -15,27 +17,31 @@
 <img align="center" src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="adishenz" />
 </p>
 
-## ![Image](Images/Description.png) Description
+## ![image](images/Description.png) Description
 
 This is a simple web application that transforms text messages entered by the user into a well-formatted handwritten image that can then be saved to your local device.
 
 This project is built using `Python` and `Streamlit`. The text to handwritting conversion is done using [PyWhatKit](https://pywhatkit.herokuapp.com/) library.
 
 
-## ![Image](Images/Languages_Frameworks.png) Languages and Frameworks
+## ![image](images/Languages_frameworks.png) Languages and Frameworks
 
-| Name                                          | Version       |
-| :---------------:                               |:-------------:| 
-| ![Logo](Images/python.png) `Python`           | v3.9.5        | 
-| ![Logo](Images/streamlit.jpg) `Streamlit`     | v0.84.1       |   
-| ![Logo](Images/pywhatkit.jpg) `PyWhatKit`     | v5.0      |    
-
-
-<!--## ![Image](Images/Usage.png) Usage
+| Name             | Version       |
+| :---------------:|:-------------:| 
+| `Python`         | v3.9.5        | 
+| `Streamlit`      | v0.84.1       |   
+| `PyWhatKit`      | v5.0          |    
 
 
-## ![Image](Images/Demo.png) Demo-->
+<!--# ![image](images/Usage.png) Usage -->
 
-## ![Image](Images/License.png) License
+
+## ![image](images/Demo.png) Demo
+![Demo 1](https://user-images.githubusercontent.com/49498445/126910431-da3f6427-ba1c-4a9f-ac64-5e12c89d5925.gif)
+![Demo 2](https://user-images.githubusercontent.com/49498445/126910413-88206f0a-d952-4bdc-9212-06d035501687.gif)
+![Demo 3](https://user-images.githubusercontent.com/49498445/126910420-7577b5a5-8c14-4c41-be8f-852b594016a1.gif)
+
+
+## ![image](images/License.png) License
 
 <a href="https://opensource.org/licenses/MIT" rel="some text"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="adishenz98" /></a>
