@@ -15,27 +15,27 @@
 <img align="center" src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="adishenz" />
 </p>
 
-## ![Image](Images/Description.png) Description
+## ![image](images/Description.png) Description
 
 This is a simple web application that transforms text messages entered by the user into a well-formatted handwritten image that can then be saved to your local device.
 
 This project is built using `Python` and `Streamlit`. The text to handwritting conversion is done using [PyWhatKit](https://pywhatkit.herokuapp.com/) library.
 
 
-## ![Image](images/Languages_Frameworks.png) Languages and Frameworks
+## ![image](images/Languages_Frameworks.png) Languages and Frameworks
 
 | Name                                          | Version       |
 | :---------------:                               |:-------------:| 
-| ![Logo](Images/python.png) `Python`           | v3.9.5        | 
-| ![Logo](Images/streamlit.jpg) `Streamlit`     | v0.84.1       |   
-| ![Logo](Images/pywhatkit.jpg) `PyWhatKit`     | v5.0      |    
+| ![Logo](images/python.png) `Python`           | v3.9.5        | 
+| ![Logo](images/streamlit.jpg) `Streamlit`     | v0.84.1       |   
+| ![Logo](images/pywhatkit.jpg) `PyWhatKit`     | v5.0      |    
 
 
-<!--## ![Image](Images/Usage.png) Usage
+<!--## ![image](images/Usage.png) Usage
 
 
-## ![Image](Images/Demo.png) Demo-->
+## ![image](images/Demo.png) Demo-->
 
-## ![Image](Images/License.png) License
+## ![image](images/License.png) License
 
 <a href="https://opensource.org/licenses/MIT" rel="some text"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="adishenz98" /></a>
