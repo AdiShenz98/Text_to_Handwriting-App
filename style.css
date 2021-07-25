@@ -1,6 +1,12 @@
 /* Title */
 .css-10trblm{
     text-align: center;
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: #f78b8b;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .stButton{

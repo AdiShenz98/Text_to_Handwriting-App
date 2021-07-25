@@ -13,21 +13,26 @@ from requests.sessions import SessionRedirectMixin
 
 
 # Page Config
+PAGE_CONFIG = {"page_title":"Text2Handwriting","page_icon":"Images/page_logo.png"}
+st.set_page_config(**PAGE_CONFIG)
 
 # Formatting and Styling Functions
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+# Connecting to pywhatkit api to convert text to handwriting
 def text_to_handwriting(text, save_as = "result.png", rgb = [0,0,0]):
     data = requests.get("https://pywhatkit.herokuapp.com/handwriting?text=%s&rgb=%s,%s,%s" % (text,rgb[0],rgb[1],rgb[2])).content
     return data
 
+# Function to convert hex to rgb
 def hex2rgb(color):
   hex = color.lstrip('#')
   rgb = tuple(int(hex[i:i+2], 16) for i in (0, 2, 4))
   return rgb
 
+# Getting the html download tag
 def img_to_html(data, save_as):
     if save_as == '':
         save_as = 'converted_image.png'
@@ -38,7 +43,7 @@ def img_to_html(data, save_as):
     return href
 
 
-
+# MAIN Function
 def main():
     # Loading the CSS styling file
     local_css("style.css")
@@ -48,6 +53,7 @@ def main():
     display_cont = st.beta_container()
     Download_opt_cont = st.beta_container()
     
+    # User Input Area
     with main_cont:     
         with st.form('Form 1'):
             txt = st.text_area('Enter Text',max_chars=750)
@@ -70,7 +76,7 @@ def main():
 
             
         
-        
+    # Converted Display Area   
     with display_cont:
         with st.form('Form 2'):
             if st.session_state.b1:
