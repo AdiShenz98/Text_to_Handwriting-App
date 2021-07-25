@@ -1,3 +1,5 @@
+![Text-to-Handwriting](https://user-images.githubusercontent.com/49498445/126910382-dec5e846-db03-4903-9a3b-27015f599b6b.gif)
+
 <h1 align="center">Text_to_Handwriting-App</h1>
 <h2 align="center"> A simple text to handwriting web app using Python and Streamlit</h2>
 
@@ -31,10 +33,14 @@ This project is built using `Python` and `Streamlit`. The text to handwritting c
 | `PyWhatKit`      | v5.0          |    
 
 
-<!--## ![image](images/Usage.png) Usage
+<!--# ![image](images/Usage.png) Usage -->
 
 
-## ![image](images/Demo.png) Demo-->
+## ![image](images/Demo.png) Demo
+![Demo 1](https://user-images.githubusercontent.com/49498445/126910431-da3f6427-ba1c-4a9f-ac64-5e12c89d5925.gif)
+![Demo 2](https://user-images.githubusercontent.com/49498445/126910413-88206f0a-d952-4bdc-9212-06d035501687.gif)
+![Demo 3](https://user-images.githubusercontent.com/49498445/126910420-7577b5a5-8c14-4c41-be8f-852b594016a1.gif)
+
 
 ## ![image](images/License.png) License
 
