@@ -13,7 +13,7 @@ from requests.sessions import SessionRedirectMixin
 
 
 # Page Config
-PAGE_CONFIG = {"page_title":"Text2Handwriting","page_icon":"Images/page_logo.png"}
+PAGE_CONFIG = {"page_title":"Text2Handwriting","page_icon":"images/page_logo.png"}
 st.set_page_config(**PAGE_CONFIG)
 
 # Formatting and Styling Functions
