@@ -33,8 +33,28 @@ This project is built using `Python` and `Streamlit`. The text to handwritting c
 | `PyWhatKit`      | v5.0          |    
 
 
-<!--# ![image](images/Usage.png) Usage -->
+## ![image](images/requirements.png) Requirements
 
+```python
+pip install streamlit 
+pip install pywhatkit
+pip install requests
+```
+
+## ![image](images/usage.png) Usage
+
+- Clone [Text_to_Handwriting-App](https://github.com/AdiShenz98/Text_to_Handwriting-App) repository.
+- Open CMD in working directory.
+- Run following command.
+
+  ```
+  pip install -r requirements.txt
+  ```
+- `app.py` is the main python file of Streamlit Web Application.
+- To run app, write the following command in `cmd` or in your preferred `IDE terminal`
+  ```
+  streamlit run app.py
+  ```
 
 ## ![image](images/Demo.png) Demo
 ![Demo 1](https://user-images.githubusercontent.com/49498445/126910431-da3f6427-ba1c-4a9f-ac64-5e12c89d5925.gif)
