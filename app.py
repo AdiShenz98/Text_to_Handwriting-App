@@ -16,6 +16,15 @@ from requests.sessions import SessionRedirectMixin
 PAGE_CONFIG = {"page_title":"Text2Handwriting","page_icon":"images/page_logo.png"}
 st.set_page_config(**PAGE_CONFIG)
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Formatting and Styling Functions
 def local_css(file_name):
     with open(file_name) as f:
